@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,188 +5,205 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font awsome icon/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="CSS/style.css">
-    <title>Flipkart Clone</title>
+    <link rel="stylesheet" href="font style/Roboto-MediumItalic.ttf">
+
 </head>
 
 <body>
     <!-- nav bar -->
-    <nav class="navBar" id="navBar">
-        <div class="logo">
-            <a href="index.html"></a>
-            <div class="flipkart_logo">
-                <img src="images/flip_logo.jpg" alt="Flipkart Clone">
-            </div>
-        </div>
-
-        <!-- search bar -->
-        <div class="search_bar_container">
-            <div class="search_bar">
-                <form action="" class="search">
-                    <input type="text" placeholder="Search for products, brand and more" class="search_box">
-                    <button class="search_btn">
-                        <i class="fa fa-search"></i>
-                    </button>
-                </form>
-
-            </div>
-        </div>
-        <!-- login button -->
-        <div class="login_btn">
-            <button id="login_btn">Login</button>
-        </div>
-        <!-- more button -->
-        <div class="more">
-            <span class="more_dd">
-                More <i class="fa fa-angle-down"></i>
-            </span>
-            <div class="more_dropdown">
-                <div class="pointer_more_dropdown">
-                    <ul class="dropdown_list">
-                        <li class="moreddli"> <i class="more_icon fa fa-bell"></i> Preferences</option< /li>
-                        <li class="moreddli"> <i class="more_icon fa fa-shopping-basket"></i>sell on flipkart">Sell on
-                            Flipkart</li>
-                        <li class="moreddli"> <i class="more_icon fa fa-question"></i>24x7 customer support</li>
-                        <li class="moreddli"> <i class="more_icon fa fa-line-chart "></i>Advertise</li>
-                        <li class="moreddli"> <i class="more_icon fa fa-download "></i>Download App</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="card">
-                <span class="cart_btn">
-                    <i class="fa fa-shopping-cart">Cart</i>
+    <nav>
+        <div class="nav-bar-left">
+            <a href="#">Flipkart</a>
+            <div class="nav-bar-left-p">
+                <p><a href="#">Explore</a>  <span>Plus<i class="fas fa-plus"></i>
                 </span>
+                </p>
             </div>
+        </div>
+        <!-- search bar -->
+        <div class="nav-bar-center">
+            <input class="nav-bar-center-input" type="text" placeholder=" Search for products,Brands and more"><i
+                class="fas fa-search"></i>
+        </div>
+        <!-- login & more button -->
+        <div class="nav-bar-right">
+            <a class="activity" href="#">Login</a>
+            <a href="#">more<i class="fa fa-angle-down"></i></a>
+            <a href="#"><i class="fas fa-shopping-cart"></i>cart</a>
         </div>
     </nav>
-    <!-- item lists -->
-    <div class="heading_categories">
-        <ul class="heading_list">
-            <li class="heading_list_items">
-                <img src="" alt="Top offers">
-                <p class="heading_item_name">Top offers</p>
-            </li>
-            <li class="heading_list_items">
-                <img src="" alt="Grocery">
-                <p class="heading_item_name">Grocery</p>
-            </li>
-            <li class="heading_list_items">
-                <img src="" alt="Mobiles">
-                <p class="heading_item_name">Mobiles</p>
-            </li>
-            <li class="heading_list_item">
-                <img src="" alt="fashion">
-                <p class="heading_item_name">fashion</p>
-            </li>
-            <li class="heading_list_items">
-                <img src="" alt="Electronics">
-                <p class="heading_item_name">Electronics</p>
-            </li>
-            <li class="heading_list_items">
-                <img src="" alt="Home">
-                <p class="heading_item_name">Home</p>
-            </li>
-            <li class="heading_list_items">
-                <img src="" alt="Appliances">
-                <p class="heading_item_name">Appliances</p>
-            </li>
-            <li class="heading_list_items">
-                <img src="" alt="Travel">
-                <p class="heading_item_name">Travel</p>
-            </li>
-            <li class="heading_list_items">
-                <img src="" alt="Beauty toy and more...">
-                <p class="heading_item_name">Beauty toy and more...</p>
-            </li>
-        </ul>
-    </div>
-    <hr>
-    <!-- slider -->
-    <div class="heading">
-        <h3>Deals of the day</h3>
-        <!-- for timer -->
-        <div id="timer"></div> 
-    </div>
-    <div class="container">
-        <div class="cards">
-            <div class="card-1">
-                <img src="" alt="img">
-                <p>Cisco, fastrack, Sonata...</p>
-                <p>Upto 80% + extra 10% off</p>
-            </div>
-            <div class="card-2">
-                <img src="" alt="img">
-                <p>home, Temples & more</p>
-                <p>Extra 10% off</p>
-            </div>
-            <div class="card-3">
-                <img src="" alt="img">
-                <p>Premium Tablet Cases</p>
-                <p>Extra 10% off</p>
-            </div>
-            <div class="card-4">
-                <img src="" alt="img">
-                <p>Best Of Home Decor</p>
-                <p>From Rs. 79</p>
-            </div>
-            <div class="card-5">
-                <img src="" alt="img">
-                <p>Metronut, Provogue & ...</p>
-                <p>From Rs. 167 + Extra 10% off</p>
-            </div>
-            <div class="card-6">
-                <img src="" alt="img">
-                <p>LAVA A1500</p>
-                <p>Flat Rs. 830 off</p>
-            </div>
-            <div class="card-7">
-                <img src="" alt="img">
-                <p>LAVA A1500</p>
-                <p>Flat Rs. 830 off</p>
-            </div>
-        </div>
-    </div>
+
+    <!-- item list section -->
 
     <section>
-        <div class="book_music_sec">
-            <h3>Book and Music Instrument</h3>
-            <p>Shop Now!</p>
-            <hr>
-            <div class="">
-                <img src="" alt="img" />
-                <p>Harmoniums</p>
-                <p>Up to 60% off</p>
-                <p>Shop Now!</p>
+        <div class="item-row">
+            <div class="item-col">
+                <img src="images/l1.png" alt="">
+                <h5>Top Offers</h5>
             </div>
-            <div class="">
-                <img src="" alt="img" />
-                <p>Flutes</p>
-                <p>Up to 80% off</p>
-                <p>Shop Now!</p>
+            <div class="item-col">
+                <img src=" images/l2.png" alt="">
+                <h5>grocery</h5>
             </div>
-            <div class="">
-                <img src="" alt="img" />
-                <p>Acoustic Guitars</p>
-                <p>Startin 1799</p>
-                <p>juarez, Reval...</p>
+            <div class="item-col">
+                <img src=" images/l3.png" alt="">
+                <h5>mobile</h5>
             </div>
-            <div class="">
-                <img src="" alt="img" />
-                <p>Musical Accessories</p>
-                <p>Startin 1799</p>
-                <p>Up to 80% Off</p>
+            <div class="item-col">
+                <img src=" images/l4.png" alt="">
+                <h5>fashion</h5>
             </div>
-            <div class="">
-                <img src="" alt="img" />
-                <p>Microphone Accessories</p>
-                <p>Startin 1799</p>
-                <p>Starting from 1999</p>
+            <div class="item-col">
+                <img src=" images/l5.png" alt="">
+                <h5>electronics</h5>
+            </div>
+            <div class="item-col">
+                <img src=" images/l6.png" alt="">
+                <h5>home</h5>
+            </div>
+            <div class="item-col">
+                <img src=" images/l7.png" alt="">
+                <h5>appliances</h5>
+            </div>
+            <div class="item-col">
+                <img src=" images/l8.png" alt="">
+                <h5>travel</h5>
+            </div>
+            <div class="item-col">
+                <img src=" images/l9.png" alt="">
+                <h5>Beauty,Toys&More</h5>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- deals of the day section -->
+    <section>
+        <div class="container">
+            <div class="heading">
+                <div class="heading-left">
+                    <h1>Deals Of The Day</h1>
+                    <div class="timer">
+                        <h2><i class="far fa-clock"></i> 22 : 07 : 36 Left</h2>
+                    </div>
+
+                </div>
+                <div class="heading-right">
+                    <button>View all</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src=" images/dotd1.jpeg" alt="img">
+                    <h3>Cisco, fastrack, Sonata...</h3>
+                    <h4>Upto 80% + extra 10% off</h4>
+                    <h6>Knockout Deals!</h6>
+                </div>
+                <div class="col">
+                    <img src=" images/dotd2.jpeg" alt="img">
+                    <h3>home, Temples & more</h3>
+                    <h4>Extra 10% off</h4>
+                    <h6>Space saving furniture</h6>
+                </div>
+                <div class="col">
+                    <img src=" images/dotd3.jpeg" alt="img">
+                    <h3>Premium Tablet Cases</h3>
+                    <h4>Extra 10% off</h4>
+                    <h6>For all top models</h6>
+                </div>
+                <div class="col">
+                    <img src=" images/dotd4.jpeg" alt="img">
+                    <h3>Best Of Home Decor</h3>
+                    <h4>From<i class="fas fa-rupee-sign"></i>79</h4>
+                    <h6>Lowest Price Ever</h6>
+                </div>
+                <div class="col">
+                    <img src=" images/dotd5.jpeg" alt="img">
+                    <h3>Metronut, Provogue & ...</h3>
+                    <h4>From<i class="fas fa-rupee-sign"></i>167 + Extra 10% off</h4>
+                    <h6>Jackets, Dresses and More</h6>
+                </div>
+                <div class="col">
+                    <img src=" images/dotd6,7.jpeg" alt="img">
+                    <h3>LAVA A1500</h3>
+                    <h4>Flat<i class="fas fa-rupee-sign"></i>830 off</h4>
+                    <h6>Now<i class="fas fa-rupee-sign"></i>999</h6>
+                </div>
+                <div class="col">
+                    <img src=" images/dotd6,7.jpeg" alt="img">
+                    <h3>LAVA A1500</h3>
+                    <h4>Flat<i class="fas fa-rupee-sign"></i>830 Off</h4>
+                    <h6>Now<i class="fas fa-rupee-sign"></i>999</h6>
+                </div>
+                <div class="col">
+                    <img src=" images/dotd8.jpeg" alt="img">
+                    <h3>Men Grooming Essentials</h3>
+                    <h4>Up To 50% + Extra 5%</h4>
+                    <h6>Bold Care, Man Matters...</h6>
+                </div>
+
             </div>
         </div>
     </section>
 
-    <footer class=""></footer>
+    <!-- Books and music Instruments section -->
+
+    <section>
+        <div class="container">
+            <div class="heading">
+                <div class="heading-left">
+                    <h1>Books And Music Instruments</h1>
+                    <h2>Shop Now!</h2>
+                </div>
+                <div class="heading-right">
+                    <button>view all</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-bami">
+                    <img src=" images/bami1.jpeg" alt="img">
+                    <h3> Harmoniums</h3>
+                    <h4> Up To 60% Off</h4>
+                    <h6>Shop Now!</h6>
+                </div>
+                <div class="col col-bami">
+                    <img src=" images/bami2.jpeg" alt="img">
+                    <h3>Fflutes</h3>
+                    <h4>Up To 60% Off</h4>
+                    <h6>Shop Now</h6>
+                </div>
+                <div class="col col-bami">
+                    <img src="images/bami3,5.jpeg" alt="img">
+                    <h3>Acoustic Guitars</h3>
+                    <h4>Starting<i class="fas fa-rupee-sign"></i>1700</h4>
+                    <h6>juarez, Reval...</h6>
+                </div>
+                <div class="col col-bami">
+                    <img src=" images/bami4.jpeg" alt="img">
+                    <h3> Musical Accessories</h3>
+                    <h4>Startin<i class="fas fa-rupee-sign"></i>1799</h4>
+                    <h6>Up to 80% Off/h6>
+                </div>
+                <div class="col col-bami">
+                    <img src=" images/bami3,5.jpeg" alt="img">
+                    <h3>Acoustic Guitars</h3>
+                    <h4>Starting<i class="fas fa-rupee-sign"></i>1700</h4>
+                    <h6>juarez, Reval...</h6>
+                </div>
+                <div class="col col-bami">
+                    <img src=" images/bami6.jpeg" alt="img">
+                    <h3>Microphone Accessories</h3>
+                    <h4>Up To 80% Off</h4>
+                    <h6>Shop Now!</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
 
 </html>
