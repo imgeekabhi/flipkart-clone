@@ -162,17 +162,19 @@
     border-radius: 0px;
     
 }
+#dotd-container{
+    background-color: #f0f0f0;
+    margin-top:-9px ;
+}
  .heading{
      display: flex;
      justify-content: space-between;
      width: 100%;
      padding: 19px 20px;
-     margin-top: -11px;
+     margin-top: 0px;
      box-shadow: 0 1px 1px 0 rgb(0 0 0 /16%);
  }
-/* #dotd-h1{
-    margin-top:2px ;
-} */
+
 
  .heading-left h1{
      font-size: 20px;
@@ -209,13 +211,17 @@
      width: 99.2%;
      
  }
- #ad{
-    margin-top: -411px;
-    margin-left: 1090px;
-    height: 432px;
-    width: 220px;
-    box-shadow: 1px -4px 3px 9px #f1f3f6;
+ .adv-card{
+    margin-right: -11px;
  }
+ #ad{
+     border: 9px solid white;
+     margin-left: -43px ;
+    height: 409px;
+    width: 245px;
+    box-shadow: rgb(177,174,174) 3px 3px 9px -3px;
+ }
+
  .col{
      text-align: center;
      line-height: 22px;
