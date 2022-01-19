@@ -15,17 +15,17 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
-<body>
+<body style="background-color:#f1f3f6;">
     <!-- Bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
     <!-- nav bar -->
-    <nav class="bg-primary">
+    <nav>
         <div class="nav-bar-left">
             <a href="#">Flipkart</a>
             <div class="nav-bar-left-p">
-                <p><a href="#">Explore</a> <span>Plus<i class="fas fa-plus"></i>
+                <p style="margin-top: -12px;"><a href="#">Explore</a> <span>Plus<i class="fas fa-plus"></i>
                     </span>
                 </p>
             </div>
@@ -36,9 +36,9 @@
                 class="fas fa-search"></i>
         </div>
         <!-- login & more button -->
-        <div class="nav-bar-right">
+        <div class="nav-bar-right dropdown show">
             <a class="activity" href="#">Login</a>
-            <a href="#">more<i class="fa fa-angle-down"></i></a>
+            <a href="#">More<i class="fa fa-angle-down"></i></a>
             <a href="#"><i class="fas fa-shopping-cart"></i>cart</a>
         </div>
     </nav>
@@ -46,44 +46,47 @@
     <!-- item list section -->
 
     <section>
-        <div class="item-row">
-            <div class="item-col">
-                <img src="images/l1.png" alt="">
-                <h5>Top Offers</h5>
-            </div>
-            <div class="item-col">
-                <img src=" images/l2.png" alt="">
-                <h5>grocery</h5>
-            </div>
-            <div class="item-col">
-                <img src=" images/l3.png" alt="">
-                <h5>mobile</h5>
-            </div>
-            <div class="item-col">
-                <img src=" images/l4.png" alt="">
-                <h5>fashion</h5>
-            </div>
-            <div class="item-col">
-                <img src=" images/l5.png" alt="">
-                <h5>electronics</h5>
-            </div>
-            <div class="item-col">
-                <img src=" images/l6.png" alt="">
-                <h5>home</h5>
-            </div>
-            <div class="item-col">
-                <img src=" images/l7.png" alt="">
-                <h5>appliances</h5>
-            </div>
-            <div class="item-col">
-                <img src=" images/l8.png" alt="">
-                <h5>travel</h5>
-            </div>
-            <div class="item-col">
-                <img src=" images/l9.png" alt="">
-                <h5>Beauty,Toys&More</h5>
-            </div>
+        <div id="shadow-line">
+            <div class="item-row">
+                <div class="item-col">
+                    <img src="images/l1.png" alt="">
+                    <h5>Top Offers</h5>
+                </div>
+                <div class="item-col">
+                    <img src=" images/l2.png" alt="">
+                    <h5>Grocery</h5>
+                </div>
+                <div class="item-col">
+                    <img src=" images/l3.png" alt="">
+                    <h5>Mobile</h5>
+                </div>
+                <div class="item-col">
+                    <img src=" images/l4.png" alt="">
+                    <h5>Fashion</h5>
+                </div>
+                <div class="item-col">
+                    <img src=" images/l5.png" alt="">
+                    <h5>Electronics</h5>
+                </div>
+                <div class="item-col">
+                    <img src=" images/l6.png" alt="">
+                    <h5>Home</h5>
+                </div>
+                <div class="item-col">
+                    <img src=" images/l7.png" alt="">
+                    <h5>Appliances</h5>
+                </div>
+                <div class="item-col">
+                    <img src=" images/l8.png" alt="">
+                    <h5>Travel</h5>
+                </div>
+                <div class="item-col">
+                    <img src=" images/l9.png" alt="">
+                    <h5>Beauty,Toys&More</h5>
+                </div>
 
+            </div>
+            <hr>
         </div>
     </section>
 
@@ -98,7 +101,7 @@
                     </div>
 
                 </div>
-                <div class="heading-right">
+                <div style="margin-right: 210px;" class="heading-right">
                     <button class="bg-primary">View all</button>
                 </div>
             </div>
@@ -153,6 +156,9 @@
                 </div>
 
             </div>
+            <div class="adv-card">
+                <img id="ad" src="images/flip_ad.jpeg" alt="ad">
+            </div>
         </div>
     </section>
 
@@ -160,12 +166,13 @@
 
     <section>
         <div class="container">
-            <div class="heading">
+            <div style="padding: 10px 20px; margin-top: 1px;" class="heading">
                 <div class="heading-left">
                     <h1>Books And Music Instruments</h1>
-                    <h2>Shop Now!</h2>
+                    <br>
+                    <h2 id="shopnow">Shop Now!</h2>
                 </div>
-                <div class="heading-right ">
+                <div style="margin-top: 14px;" class="heading-right ">
                     <button class="bg-primary">view all</button>
                 </div>
             </div>
