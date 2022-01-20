@@ -13,7 +13,7 @@
      justify-content: space-evenly;
      background-color: rgb(40, 116, 240);
      position: sticky;
-     width: 100%;
+     width: 104%;
      height: 54px;
      z-index: 1;
     
@@ -116,8 +116,8 @@
 
  .item-row{
      display: flex;
-     margin-left: 100px;
-     width: 81%;
+     margin-left: 111px;
+     width: 89%;
      justify-content: space-evenly;
      height: auto;
      margin-top: 10px;
@@ -208,7 +208,8 @@
      justify-content: space-evenly;
      max-height: 366px;
      margin: 10px 0px;
-     width: 99.2%;
+     width: 100%;
+     padding-left: 15px;
      
  }
  .adv-card{
