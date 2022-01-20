@@ -129,11 +129,11 @@
     background-color: #ffffff;
     margin-top: -6px;
     margin-bottom: 23px;
+    box-shadow: rgb(177,174,174) 3px 3px 9px -3px;
  }
  .item-col{
      padding: 10px 0px;
      color: #212121;
-     
      cursor: pointer;
      
  }
