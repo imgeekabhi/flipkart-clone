@@ -1,0 +1,299 @@
+ *{
+     margin: 0;
+     padding: 0;
+     font-family: 'Roboto', sans-serif;
+     box-sizing: border-box;
+    
+ }
+ /* <!-- nav bar --> */
+ 
+ nav{
+     top: 0px;
+     display: flex;
+     justify-content: space-evenly;
+     background-color: rgb(40, 116, 240);
+     position: sticky;
+     width: 104%;
+     height: 54px;
+     z-index: 1;
+    
+ }
+ .nav-bar-left{
+     width: 20%;
+     text-align: right;
+     margin: 5px 0px;
+     cursor: pointer;
+ }
+ .nav-bar-left a{
+     color: white;
+     font-size: 20px;
+     text-decoration: none;
+     font-weight: bold;
+     font-style: italic;
+     letter-spacing: 1.5px;
+     
+ }
+ 
+ .nav-bar-left-p a{
+    font-size: 10px;
+    letter-spacing: 1.5px;
+ }
+ .nav-bar-left-p span{
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: yellow;
+     
+ }
+ 
+ .nav-bar-left-p:hover{
+     text-decoration: underline;
+     color: white;
+ }
+ .nav-bar-center{
+     width: 40%;
+     text-align: left;
+     cursor: pointer;
+     padding-left: 10px;
+     position: relative;
+     line-height: 50px;
+     
+ }
+ .nav-bar-center-input{
+     height: 36px;
+     width: 100%;
+     cursor: pointer;
+     border: none;
+     text-align: left;
+     padding-left: 20px;
+ }
+ .fa-search{
+    top: 30%;
+    left: 94%;
+    font-size: 18px;
+     position: absolute;
+     color: #2874f0;
+ }
+ .nav-bar-right{
+     width: 40%;
+     font-size: 16px;
+     font-weight: bold;
+     display: flex;
+   justify-content: flex-start;
+   text-transform: capitalize;
+   line-height: 50px;
+ }
+ .nav-bar-right a{
+    margin: 0px 25px;
+     text-decoration: none;
+     color: white;
+    
+ }
+ .nav-bar-right .activity{
+     background-color: white;
+     color: rgb(40, 116, 240);
+     line-height: 23px;
+     margin-top: 8px;
+     border-radius: 2px;
+     padding: 5px 30px;
+     height: 35px;
+     width: 130px;
+     text-align: center;
+ }
+.fa-angle-down{
+    padding: 4px;
+}
+ 
+.fa-sort-down{
+     padding-left: 5px;
+
+ }
+.fa-shopping-cart{
+    padding-right: 10px;
+}
+
+ /* <!-- item list section--> */
+
+
+ .item-row{
+     display: flex;
+     margin-left: 111px;
+     width: 89%;
+     justify-content: space-evenly;
+     height: auto;
+     margin-top: 10px;
+     text-align: center;
+     padding-top: 5px;
+     
+ }
+ #shadow-line{
+    background-color: #ffffff;
+    margin-top: -6px;
+    margin-bottom: 23px;
+    box-shadow: rgb(177,174,174) 3px 3px 9px -3px;
+ }
+ .item-col{
+     padding: 10px 0px;
+     color: #212121;
+     cursor: pointer;
+     
+ }
+
+ .item-col img{
+    height: 64px;
+    width: 64px;
+     
+ }
+ .item-col h5:hover{
+    color: rgb(40, 116, 240);
+ }
+ .item-col h5{
+    font-size: 14px;
+    font-weight: bold;
+
+ }
+
+ /* deals of the day & Books and music Instruments section */
+
+.container{
+    box-shadow: rgb(177,174,174) 3px 3px 9px -3px;
+    background-color: #ffffff;
+    padding: 0px 0px;
+    margin: 10px 5px;
+    border-radius: 0px;
+    
+}
+#dotd-container{
+    background-color: #f0f0f0;
+    margin-top:-9px ;
+}
+ .heading{
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+     padding: 19px 20px;
+     margin-top: 0px;
+     box-shadow: 0 1px 1px 0 rgb(0 0 0 /16%);
+ }
+
+
+ .heading-left h1{
+     font-size: 20px;
+     font-weight: 400;
+     padding-top:11px;
+ }
+ .heading-left h2{
+     margin-top: -34px;
+     margin-left: 172px;
+     font-size: 17px;
+     padding: 5px 0px;
+     color: rgb(145,141,138) ;
+     font-weight: 200;
+ }
+ #shopnow{
+     margin-left: 0px;
+ }
+ .heading-right button{
+    /* background-color: #2874f0; */
+    cursor: pointer;
+    border: none;
+    color: white;
+     width: 90px;
+     height: 40px;
+     font-size: 18px;
+     border-radius: 2px;
+ }
+ .row{
+     padding-top: 36px;
+     display: flex;
+     justify-content: space-evenly;
+     max-height: 366px;
+     margin: 10px 0px;
+     width: 100%;
+     padding-left: 15px;
+     
+ }
+ .adv-card{
+    margin-right: -11px;
+ }
+ #ad{
+     border: 9px solid white;
+     margin-left: -43px ;
+    height: 409px;
+    width: 245px;
+    box-shadow: rgb(177,174,174) 3px 3px 9px -3px;
+ }
+
+ .col{
+     text-align: center;
+     line-height: 22px;
+ }
+ .col img{
+    transition: 300ms;
+     width: 75px;
+     height: 150px;
+     
+ }
+ .col img:hover{
+     transform: scale(0.9);
+ }
+ .col h3,h4,h6{
+    cursor: pointer;
+     text-transform: capitalize;
+     letter-spacing: 1px;
+     
+ }
+ .col h3{
+     margin-top: 10px;
+     font-size: 14px;
+     font-weight: bold;
+ }
+ .col h4{
+     
+     font-weight: 300;
+     color: green;
+     font-size: 13px;
+ }
+ .col h6{
+    font-size: 12px;
+    font-weight: 100;
+    color: rgb(161,161,161);
+    
+ }
+
+ 
+/* Books and music Instruments section */
+.col-bami img{
+    height: 150px;
+    width: 120px;
+    
+}
+/* dropdown btn  */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+      margin-top:4px ;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 260px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 5px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  
